@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    margin: 30px;
+    height: 1000px;
+    width: 600px;
+    /*max-width: fit-content;*/
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+}
+.time nav{
+    margin: 40px;
+}
+.time nav ul{
+    float: right;
+    display: flex;
+}
+.time nav p{
+    float: left;
+}
+.time nav ul li{
+padding-left: 10px;
+}
+.title{ 
+    margin: 50px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title i{
+    margin-top: 40px;
+}
+.title p{
+    margin-top: 40px;
+}
+.profile{
+    margin: 30px;
+    margin-right: 40px;
+    display: flex;
+}
+.profile img{ 
+    
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+.profile ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+}
+.profile ul li{
+    padding-left: 50px;
+    text-align: center;  
+}
+.info{
+    margin: 20px;
+}
+.button{
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+.follow{
+    text-align: center;
+    margin-left: 30px;
+    background-color: rgb(57, 57, 57);
+    color: white;
+    padding: 10px 60px 10px 60px;
+    border-radius: 5%;
+}
+.message{
+    margin-right: 20px;
+    background-color: rgb(57, 57, 57);
+    color: white;
+    padding: 10px 70px 10px 70px;
+    border-radius: 5%;
+}
+.button i{
+    margin-right: 50px ;
+}
+.storyArchive img{
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 20px;
+    font-size: 30px;
+}
+.picture div img{
+    width: 25%;
+    height: 20%;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 30px;
+    display: inline-block;
+}
